@@ -1,30 +1,19 @@
-# vue-template-base
+# bookstore
 
-> A Vue.js project
+> 纯view类的书城模板
 
-## Build Setup
+# 优点
 
-``` bash
-# install dependencies
-npm install
+* 简约、优雅的开发模式
+* 使用业务组件和view组件构建
+* 数据管理采用vuex
+* 数据请求走中间middleware
 
-# serve with hot reload at localhost:8080
+# 目的
+剔除了公司的业务代码，保留了原始的界面代码，希望记录下简约、优雅开发的风格，所以托管在github上了。
+
+# 预览
 npm run dev
 
-# build for production with minification
-npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
 
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
